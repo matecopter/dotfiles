@@ -1,0 +1,14 @@
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle sudo
+antigen bundle common-aliases
+antigen bundle command-not-found
+antigen bundle desyncr/auto-ls
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle unixorn/autoupdate-antigen.zshplugin
+antigen bundle ael-code/zsh-colored-man-pages
+#antigen bundle MichaelAquilina/zsh-you-should-use
+ 
+antigen bundle zdharma/fast-syntax-highlighting
+antigen theme ergenekonyigit/lambda-gitster
+antigen apply
