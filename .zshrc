@@ -17,9 +17,4 @@ source ~/.antigen/antigen.zsh
 antigen init ~/.antigenrc
 
 #zsh shortcuts
-alias cht='$HOME/.cht/cht.sh'
-alias up='sudo eopkg up'
-alias it='sudo eopkg it'
-alias ht='sudo htop'
-alias njvm='~/CLionProjects/njvm_ksp/cmake-build-debug/njvm'
-alias merge-pdf='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/default -dNOPAUSE -dQUIET -dBATCH -dDetectDuplicateImages -dCompressFonts=true -r150 -sOutputFile='
+source ~/.aliases
