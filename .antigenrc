@@ -7,9 +7,11 @@ antigen bundle desyncr/auto-ls
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle unixorn/autoupdate-antigen.zshplugin
 antigen bundle ael-code/zsh-colored-man-pages
+if [ -x "$(command -v ruby)" ] ; then
 antigen bundle bundler
 antigen bundle ruby
 antigen bundle gem
+fi
 antigen bundle gradle
  
 antigen bundle zdharma/fast-syntax-highlighting
