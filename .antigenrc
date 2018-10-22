@@ -7,7 +7,10 @@ antigen bundle desyncr/auto-ls
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle unixorn/autoupdate-antigen.zshplugin
 antigen bundle ael-code/zsh-colored-man-pages
-#antigen bundle MichaelAquilina/zsh-you-should-use
+antigen bundle bundler
+antigen bundle ruby
+antigen bundle gem
+antigen bundle gradle
  
 antigen bundle zdharma/fast-syntax-highlighting
 antigen theme ergenekonyigit/lambda-gitster
