@@ -18,4 +18,4 @@ antigen init ~/.antigenrc
 
 #zsh shortcuts
 source ~/.aliases
-source ~/.zshprofile
+source ~/.zprofile
