@@ -22,7 +22,8 @@ case "$DISTRO" in
     alias up='sudo apt update && sudo apt upgrade'
     alias it='sudo apt install'
     ;;
+"Fedora")
+    alias up='sudo dnf upgrade'
+    alias it='sudo dnf install'
+    ;;
 esac
-# Agnostic Aliases
-alias snano='sudo nano'
-alias shtop='sudo htop'
